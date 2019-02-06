@@ -1,0 +1,47 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication2;
+
+/**
+ *
+ * @author 708226
+ */
+public class Soccerteam {
+     
+    
+    public static void main(String[] args){   
+    }
+
+    private static class Player {
+
+        public Player() {
+        }
+    }
+    
+    class theScoccerteam{
+        String teamNames;
+        int numberofwins;
+        int shotsontarget;
+    }
+        class teamA extends theScoccerteam{
+            Player joe =new Player();
+            
+        }
+        
+        class teamB extends theScoccerteam{
+        
+        }
+        class player{
+        String playerName;
+        int SeasonScore;
+        int CareerScore;
+        int RunningSpeed;
+        int ScoringRank;
+        }    
+        
+        
+        
+}
